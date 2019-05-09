@@ -1,0 +1,17 @@
+stages:
+  - name: experiment
+  
+singleVariantExperiment: 
+  name: FirstFullExperiment
+  baseEnvironement: 
+    cloudProvider: Azure
+    resourceType: WebApp
+    gitUrl: "https://github.com/Freddy93/Test-Software"
+    gitBranch: Bogosort
+    cpuCores: 1
+    ramGB: 1.75
+  hypothesis: 
+    metricToImprove: CpuTime
+    variable: gitBranch
+    variationValue: Quicksort
+    metricImprovementType: Decrease
