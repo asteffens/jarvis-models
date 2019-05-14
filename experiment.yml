@@ -12,8 +12,8 @@ singleVariantExperiment:
     resourceType: WebApp
     gitUrl: "https://github.com/Freddy93/Test-Software"
     gitBranch: Bogosort
-    cpuCores: 1
-    ramGB: 1.75
+    skuTier: BASIC
+    skuName: B1
   hypothesis: 
     metricToImprove: CpuTime
     variable: gitBranch
