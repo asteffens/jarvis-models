@@ -1,0 +1,21 @@
+stages:
+  - name: buildTTGateway
+    transformations:
+      - checkout
+      - compile
+
+transformations:
+  - name: checkout
+    service: git-service
+    command: checkout
+    parameters:
+      repositoryUri: https://github.com/apache/commons-csv.git
+
+  - name: compile
+    service: maven-service
+    command: compile
+    dependsOn:
+      - alias: repo
+        ref: p://this/transformations/checkout/workspace
+    parameters:
+      workspace: "@repo"
