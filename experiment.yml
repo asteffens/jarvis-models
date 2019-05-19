@@ -8,7 +8,7 @@ singleVariantExperiment:
   applicationId: d993952e-fc8b-44b3-948b-b946a7fe1ad3
   applicationSecret: PowerShell r0cks! Jarvis
   durationInMinutes: 5
-  baseEnvironement: 
+  baseEnvironment: 
     cloudProvider: Azure
     resourceType: WebApp
     gitUrl: "https://github.com/Freddy93/Test-Software"
