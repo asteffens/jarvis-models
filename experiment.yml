@@ -1,6 +1,5 @@
 stages:
   - name: ExperimentProcess
-  - name: ShowHypothesisResult
   
 singleVariantExperiment: 
   name: SortAlgCpuTime
