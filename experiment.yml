@@ -7,6 +7,7 @@ singleVariantExperiment:
   subscriptionId: 5c62f5f7-791f-4dd4-ba34-ddc945847a12
   applicationId: d993952e-fc8b-44b3-948b-b946a7fe1ad3
   applicationSecret: PowerShell r0cks! Jarvis
+  durationInMinutes: 5
   baseEnvironement: 
     cloudProvider: Azure
     resourceType: WebApp
