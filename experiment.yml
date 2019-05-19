@@ -1,12 +1,13 @@
 stages:
-  - name: experiment
+  - name: ExperimentProcess
+  - name: ShowHypothesisResult
   
 singleVariantExperiment: 
-  name: FirstFullExperiment
-  tenantId: 2084d31f-2509-4499-88c5-242c26f8cfda
-  subscriptionId: 5c62f5f7-791f-4dd4-ba34-ddc945847a12
-  applicationId: d993952e-fc8b-44b3-948b-b946a7fe1ad3
-  applicationSecret: PowerShell r0cks! Jarvis
+  name: SortAlgCpuTime
+  tenantId: "2084d31f-2509-4499-88c5-242c26f8cfda"
+  subscriptionId: "5c62f5f7-791f-4dd4-ba34-ddc945847a12"
+  applicationId: "d993952e-fc8b-44b3-948b-b946a7fe1ad3"
+  applicationSecret: "PowerShell r0cks! Jarvis"
   durationInMinutes: 5
   baseEnvironment: 
     cloudProvider: Azure
