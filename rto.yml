@@ -1,5 +1,5 @@
 stages:
-  - name: buildTTGateway
+  - name: build
     transformations:
       - checkout
       - compile
